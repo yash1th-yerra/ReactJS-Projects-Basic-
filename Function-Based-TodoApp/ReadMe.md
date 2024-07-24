@@ -73,7 +73,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 - **`src/`**: Contains the source code of the application.
   - **`App.js`**: Main component that renders the `ToDoList` component.
   - **`ToDoList.js`**: Component that handles the To-Do list logic and UI.
-  - **`index.js`**: Entry point of the application.
+  - **`main.js`**: Entry point of the application.
 - **`public/`**: Contains the public assets and HTML file.
 
 ## Contributing
