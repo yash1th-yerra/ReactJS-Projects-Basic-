@@ -1,0 +1,127 @@
+
+
+
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+h1{
+    font-size: 4rem;
+}
+
+
+button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.add-button{
+    background-color: hsl(125,47%,54%);
+}
+.add-button:hover{
+    background-color: hsl(125,47%,34%);
+}
+
+.delete-button{
+    background-color: hsl(10,90%,54%);
+}
+
+.delete-button:hover{
+    background-color: hsl(10,90%,34%);
+}
+
+.move-button{
+    background-color: hsl(0, 0%, 48%);
+}
+
+.move-button:hover{
+    background-color: hsl(0, 0%, 38%);
+
+}
+
+input[type="text"]{
+    font-size: 1rem;
+    padding: 10px;
+    border:none;
+    border-bottom: 2px solid hsla(0,0%, 80%, 0.5);
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+input[type="text"]:hover{
+    border-bottom: 2px solid hsla(0,0%, 80%, 2);
+}
+
+ol{
+    padding:0;
+
+}
+
+li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:10px;
+    background-color: hsl(0, 0%,97%);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0,0%,85%, 0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+}
+
+.delete-button,.move-button{
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.edit-input {
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 2px solid hsl(200, 50%, 60%);
+    border-radius: 5px;
+    flex: 1;
+}
+
+.save-button {
+    background-color: hsl(120, 60%, 50%);
+}
+
+.save-button:hover {
+    background-color: hsl(120, 60%, 40%);
+}
+
+.cancel-button {
+    background-color: hsl(0, 60%, 50%);
+}
+
+.cancel-button:hover {
+    background-color: hsl(0, 60%, 40%);
+}
+
+.edit-button{
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin-left: 10px;
+    background-color: hsl(68, 83%, 26%);
+
+}
+.edit-button:hover{
+    background-color: hsl(69, 81%, 17%);
+
+}
+
+
+
