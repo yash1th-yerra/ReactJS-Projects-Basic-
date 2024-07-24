@@ -122,9 +122,9 @@ function App() {
 export default App;
 ```
 
-##Acknowledgements
-*React
-*Bootstrap
+## Acknowledgements
+- React
+- Bootstrap
 
 Contributing
 If you would like to contribute to this project, please fork the repository and create a pull request. We welcome all contributions that will improve the project.
